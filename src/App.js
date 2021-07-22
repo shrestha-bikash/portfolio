@@ -5,7 +5,6 @@ import IntroSection from './components/introSection/IntroSection';
 import Navbar from './components/navbar/Navbar';
 import QualificationSection from './components/qualificationSection/QualificationSection';
 import SkillSection from './components/skillSection/SkillSection';
-import ExperienceSection from './components/workExperienceSection/ExperienceSection';
 
 function App() {
   return (
