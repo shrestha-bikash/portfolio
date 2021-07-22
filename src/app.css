@@ -60,7 +60,7 @@ body{
   color: var(--second-color);
 }
 
-h1,h2,p{
+h1,h2,h3,p{
   margin: 0;
 }
 
@@ -363,10 +363,18 @@ img{
   text-align: center;
   font-weight: var(--font-semi);
   padding: 2rem 0;
+  margin-top: 2rem;
 }
 .footer__title{
   font-size: 2rem;
-  margin-bottom: var(--mb-4);
+  margin-bottom: var(--mb-1);
+}
+.footer__subtitle {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.footer__socials {
+  margin-top: 0.5rem;
 }
 .footer__social{
   margin-bottom: var(--mb-4);

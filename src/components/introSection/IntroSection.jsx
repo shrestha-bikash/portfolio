@@ -2,7 +2,7 @@ import './intro.css'
 
 export default function IntroSection() {
     return (
-        <div className="intro" id="intro">
+        <div className="intro" id="home">
             <div className="intro_img">    
                 <img src="https://avatars.githubusercontent.com/u/10379970?v=4" alt=""/>
             </div>

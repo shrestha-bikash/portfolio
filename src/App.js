@@ -1,7 +1,9 @@
 import './app.css';
 import AboutSection from './components/abooutSection/About';
+import Footer from './components/footer/Footer';
 import IntroSection from './components/introSection/IntroSection';
 import Navbar from './components/navbar/Navbar';
+import QualificationSection from './components/qualificationSection/QualificationSection';
 import SkillSection from './components/skillSection/SkillSection';
 import ExperienceSection from './components/workExperienceSection/ExperienceSection';
 
@@ -13,9 +15,10 @@ function App() {
         <IntroSection/>
         <AboutSection/>
         <SkillSection/>
-        <ExperienceSection/>
+        <QualificationSection/>
 
       </div>
+      <Footer/>
     </div>
   );
 }

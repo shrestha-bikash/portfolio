@@ -13,8 +13,8 @@ export default function Navbar() {
                         <li className="nav_item"><a href="#home" className="nav_link active">Home</a></li>
                         <li className="nav_item"><a href="#about" className="nav_link">About</a></li>
                         <li className="nav_item"><a href="#skills" className="nav_link">Skills</a></li>
-                        <li className="nav_item"><a href="#work" className="nav_link">Work</a></li>
-                        <li className="nav_item"><a href="#contact" className="nav_link">Contact</a></li>
+                        <li className="nav_item"><a href="#work" className="nav_link">Qualification</a></li>
+                        {/* <li className="nav_item"><a href="#contact" className="nav_link">Contact</a></li> */}
                     </ul>
                 </div>
 

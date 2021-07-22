@@ -1,0 +1,83 @@
+.qualification_tabs {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+}
+
+.qualification_button {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.qualification_button:hover {
+    color: #4070F4;
+}
+
+.qualification_icon {
+    font-size: 1.5rem;
+    margin-right: 0.25rem;
+    margin-top: 5px;
+}
+
+.qualification_data {
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.qualification-data-info {
+    text-align: center;
+}
+
+.qualification_title {
+    font-size: 1.25rem;
+    font-weight: 600;   
+}
+
+.qualification_subtitle {
+    display: inline-block;
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+}
+
+.qualification_calendar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.75rem;
+    font-size: 0.85rem;
+    color: #aaa;
+}
+
+.qualification_calendar i {
+    margin-right: 0.5rem;
+    font-size: 0.5rem;
+}
+
+.qualification_rounder {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: #4070F4;
+    border-radius: 50%;
+}
+
+.qualification_line {
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: #4070F4;
+    transform: translate(6px, -7px);
+}
+
+/* .qualification-section [data-content] {
+    display: none;
+}
+
+.qualification_active[data-content] {
+    display: block;
+} */

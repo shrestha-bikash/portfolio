@@ -2,6 +2,53 @@
     width: 35%;
 }
 
+.about__text {
+    margin-bottom: 1rem;
+}
+
 .about_description {
     width: 65%;
+}
+
+.about_btn {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.button--flex {
+    display: flex;
+    justify-content: center;
+}
+.button_icon {
+    margin-left: 0.5rem;
+}
+
+.about_info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+.about_info_box {
+    width: 100%;
+    background-color: #eee;
+    padding: 0.75rem 1rem;
+    margin-right: 1rem;
+    border-radius: 0.5rem;
+}
+
+.about_info_title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #000aaa;
+}
+.about_info_name {
+    font-size: 0.75rem;
+}
+
+.about_info_title,
+.about_info_name {
+    display: block;
+    text-align: center;
+
 }
