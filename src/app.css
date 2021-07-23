@@ -126,8 +126,8 @@ img{
 }
 
 .main-container {
-  margin-left: var(--mb-8);
-  margin-right: var(--mb-8);
+  margin-left: var(--mb-4);
+  margin-right: var(--mb-4);
 }
 
 /*===== NAV =====*/
@@ -389,6 +389,10 @@ img{
 @media screen and (min-width: 768px){
   body{
     margin: 0;
+  }
+  .main-container {
+    margin-left: var(--mb-8);
+    margin-right: var(--mb-8);
   }
   .section{
     padding-top: 4rem;
