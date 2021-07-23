@@ -6,10 +6,35 @@ export default function SkillSection() {
         <div className="skills section" id="skills">
             <h2 className="section-title">Skills</h2>
             <h2 className="skills__subtitle">Profesional Skills</h2>
-            <p className="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
                     
             <div className="skills__container">
                 <div className="skills-left">
+                    <div className="skills__data">
+                        <div className="skills__names">
+                            <i className='skills__icon' ><Unicons.UilProgrammingLanguage className="skills_icon"/></i>
+                            <span className="skills__name">Python</span>
+                        </div>
+                        <div className="skills__bar">
+
+                        </div>
+                        {/* <div>
+                            <span className="skills__percentage">95%</span>
+                        </div> */}
+                    </div>
+
+                    <div className="skills__data">
+                        <div className="skills__names">
+                            <i className='skills__icon' ><Unicons.UilJavaScript className="skills_icon"/></i>
+                            <span className="skills__name">JAVASCRIPT</span>
+                        </div>
+                        <div className="skills__bar">
+                            
+                        </div>
+                        {/* <div>
+                            <span className="skills__percentage">65%</span>
+                        </div> */}
+                    </div>
+                    
                     <div className="skills__data">
                         <div className="skills__names">
                             <i className='skills__icon' ><Unicons.UilHtml5 className="skills_icon"/></i>
@@ -34,30 +59,7 @@ export default function SkillSection() {
                             <span className="skills__percentage">85%</span>
                         </div> */}
                     </div>
-                    <div className="skills__data">
-                        <div className="skills__names">
-                            <i className='skills__icon' ><Unicons.UilJavaScript className="skills_icon"/></i>
-                            <span className="skills__name">JAVASCRIPT</span>
-                        </div>
-                        <div className="skills__bar">
-                            
-                        </div>
-                        {/* <div>
-                            <span className="skills__percentage">65%</span>
-                        </div> */}
-                    </div>
-                    <div className="skills__data">
-                        <div className="skills__names">
-                            <i className='skills__icon' ><Unicons.UilProgrammingLanguage className="skills_icon"/></i>
-                            <span className="skills__name">Python</span>
-                        </div>
-                        <div className="skills__bar">
-
-                        </div>
-                        {/* <div>
-                            <span className="skills__percentage">95%</span>
-                        </div> */}
-                    </div>
+                    
                     <div className="skills__data">
                         <div className="skills__names">
                             <i className='skills__icon' ><Unicons.UilProgrammingLanguage className="skills_icon"/></i>

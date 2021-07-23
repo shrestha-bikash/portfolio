@@ -303,7 +303,7 @@ img{
   z-index: var(--z-back);
   width: 100%;
 }
-.skills__html{
+/* .skills__html{
   width: 95%;
 }
 .skills__css{
@@ -314,7 +314,7 @@ img{
 }
 .skills__ux{
   width: 85%;
-}
+} */
 .skills__img{
   border-radius: .5rem;
 }
@@ -418,27 +418,6 @@ img{
   }
   .nav_link{
     color: var(--second-color);
-  }
-
-  .home{
-    height: 60vh;
-  }
-  .home_data{
-    align-self: flex-end;
-  }
-  .home_social{
-    padding-top: 0;
-    padding-bottom: 2.5rem;
-    flex-direction: row;
-    align-self: flex-end;
-  }
-  .home_social-icon{
-    margin-bottom: 0;
-    margin-right: var(--mb-4);
-  }
-  .home_img{
-    width: 457px;
-    bottom: 15%;
   }
 
   .about__container, .skills__container{

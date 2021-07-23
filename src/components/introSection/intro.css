@@ -20,3 +20,21 @@
     margin-left: 1rem;
 }
 
+@media screen and (max-width: 768px){
+    .intro{
+        padding-top: 1.5rem;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .intro_data{
+        width: 100%;
+        align-self: center;
+        text-align: center;
+    }
+
+    .intro_img{
+        width: 100%;
+        height: auto;
+    }
+}

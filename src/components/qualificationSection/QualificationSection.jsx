@@ -3,7 +3,7 @@ import * as Unicons from '@iconscout/react-unicons';
 
 export default function QualificationSection() {
     return (
-        <div className="qualification-section" id="qualification">
+        <div className="qualification-section section" id="qualification">
             <h2 class="section-title">Qualification</h2>
 
             <div className="qualification__container container">

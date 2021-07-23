@@ -1,0 +1,53 @@
+.awards-section {
+    
+}
+
+.publication_data {
+    
+}
+
+.publication {
+    padding-bottom: 1.25rem;
+}
+
+.publication_title {
+    font-size: 1.25rem;
+    font-weight: 600;   
+}
+
+.publication_subtitle {
+    display: inline-block;
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+}
+
+.publication_calendar, .publication_link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 0.25rem;
+    margin-right: 0.75rem;
+    font-size: 0.85rem;
+    color: #aaa;
+}
+
+.publication_calendar i {
+    margin-right: 0.5rem;
+    font-size: 0.5rem;
+}
+
+.publication_link i {
+    margin-top: 0.25rem;
+}
+
+.publication_link a {
+    margin-left: 0.5rem;
+    /* margin-bottom: 0.25rem; */
+    color: #4070F4;
+}
+
+.publication_footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}

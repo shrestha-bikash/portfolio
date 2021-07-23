@@ -5,3 +5,16 @@
 .skills-right {
     width: 45%;
 }
+
+@media screen and (max-width: 768px){
+    .skills__subtitle {
+        text-align: center;
+    }
+    .skills__container {
+        flex-direction: column;
+    }
+
+    .skills-left, .skills-right {
+        width: 100%;
+    }
+}

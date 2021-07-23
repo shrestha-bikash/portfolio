@@ -1,5 +1,5 @@
-.about__image {
-    width: 35%;
+.about__img {
+    margin-right: 1.5rem;
 }
 
 .about__text {
@@ -51,4 +51,31 @@
     display: block;
     text-align: center;
 
+}
+
+@media screen and (max-width: 768px){
+    .about__container{
+        padding-top: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about_description{
+        width: 100%;
+        align-self: center;
+        text-align: center;
+    }
+
+    .about__img {
+        margin-right: 0;
+    }
+
+    .about__img img{
+        width: 100%;
+        height: auto;
+    }
+
+    .about_btn {
+        justify-content: center;
+    }
 }

@@ -5,6 +5,7 @@ import IntroSection from './components/introSection/IntroSection';
 import Navbar from './components/navbar/Navbar';
 import QualificationSection from './components/qualificationSection/QualificationSection';
 import SkillSection from './components/skillSection/SkillSection';
+import AwardSection from './components/workExperienceSection/AwardSection';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <AboutSection/>
         <SkillSection/>
         <QualificationSection/>
-
+        <AwardSection/>
       </div>
       <Footer/>
     </div>
