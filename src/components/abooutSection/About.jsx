@@ -13,10 +13,10 @@ export default function AboutSection() {
                 
                 <div className="about_description">
                     {/* <h2 class="about__subtitle">I am Bikash</h2> */}
-                    <p className="about__text">Graduate Research Assistant with a history of working in the field of deep learning. Skilled in Python, Javascript, React, Web Development, Android Development, and Linux. Strong education professional with a Bachelor's degree focused in Computer Engineering and 3+ years of experience as a software engineer.</p>           
+                    <p className="about__text">I am a Software Engineer and Deep Learning Enthusiast working in the field of Machine learning. Skilled in Python, Javascript, React, Web Development, Android Development, and Linux. Strong education professional with a Bachelor's degree focused in Computer Engineering and 3+ years of experience as a software engineer.</p>           
                     <div className="about_info">
                         <div className="about_info_box">
-                            <span className="about_info_title">03+ </span>
+                            <span className="about_info_title">05+ </span>
                             <span className="about_info_name">Years <br/> Experience</span>
                         </div>
                         <div className="about_info_box">
@@ -24,7 +24,7 @@ export default function AboutSection() {
                             <span className="about_info_name">Projects <br/> Completed</span>
                         </div>
                         <div className="about_info_box">
-                            <span className="about_info_title">03 </span>
+                            <span className="about_info_title">04 </span>
                             <span className="about_info_name">Companies <br/> Worked</span>
                         </div>
                     </div>
